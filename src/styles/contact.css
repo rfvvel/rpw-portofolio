@@ -1,0 +1,7 @@
+.contact-section { min-height:60vh; display:flex; flex-direction:column; }
+.contact-main { flex:1; display:grid; grid-template-columns:minmax(220px,300px); place-content:center; padding:40px 0 70px; }
+.contact-actions { width:100%; }
+.contact-actions .primary-button { width:100%; min-height:88px; font-size:clamp(1.2rem,2vw,1.55rem); }
+.footer { padding-top:25px; border-top:1px solid var(--border); font-size:.85rem; color:var(--muted); }
+.footer p { margin:0; }
+@media (max-width:650px) { .contact-main{grid-template-columns:1fr;padding:35px 0 60px}.contact-actions .primary-button{min-height:74px} }
